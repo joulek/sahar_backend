@@ -2,8 +2,8 @@
 
 
 const genericRoutes = require('../HUB/genericRoutes');
-const Controller = require('../Controllers/authController');
-const AuthController = require('../Controllers/authController');
+const Controller = require('../controllers/authController');
+const AuthController = require('../controllers/authController');
 const controller = new Controller()
 const router = require("express").Router();
 

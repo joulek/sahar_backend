@@ -1,5 +1,5 @@
 const genericRoutes = require('../HUB/genericRoutes');
-const Controller = require('../Controllers/fournisseurController')
+const Controller = require('../controllers/fournisseurController')
 const controller = new Controller()
 const router = require("express").Router();
 

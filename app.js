@@ -5,7 +5,7 @@ const fileupload = require('express-fileupload');
 const path = require('path');
 
 const { createDatabaseIfNotExists } = require('./config/database');
-const UserController = require('./Controllers/userController'); // Assurez-vous que ce fichier existe
+const UserController = require('./controllers/userController'); // Assurez-vous que ce fichier existe
 
 const app = express();
 const PORT = process.env.PORT || 3005;
